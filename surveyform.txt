@@ -1,0 +1,98 @@
+** start of undefined **
+
+<DOCTYPE html></DOCTYPE>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <h1 id="title">YOYOYOSHEET</h1>
+    <p id="description">welcome to my shit sheet!</p>
+    <form id="survey-form">
+        <fieldset>
+            <label for="name-label" id="name-label">
+                Name:
+                <input name="name-label" id="name" type="text" placeholder="Enter your name" required />
+            </label>
+            <label for="email-label" id="email-label">
+                Email:
+                <input id="email" type="email" placeholder="Enter your email" required />
+            </label>
+            <label for="number-label" id="number-label">
+                Age(optional):
+                <input id="number" type="number" min='1' max='100' placeholder="Enter yout age" required />
+            </label>
+            <label>Which option best describes your current role?
+                <select id="dropdown">
+                    <option value="">Select current role</option>
+                    <option value="1">aaa</option>
+                    <option value="2">bbb</option>
+                    <option value="3">ccc</option>
+                </select>
+            </label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend><b>Would you recommend freeCodeCamp to a friend?</b></legend>
+            <label for="Definitely"><input type="radio" class="inline" name="question" value="Definitely" checked>Definitely<label>
+            <label for="Maybe"><input type="radio" class="inline" name="question" value="Maybe">Maybe</label>
+            <label for="No sure"><input type="radio" class="inline" name="question" value="No sure">No sure</label>
+            </fieldset>
+        <fieldset>
+            <legend><b>What would you like to see improved?</b></legend>
+            <input type="checkbox" class="inline" id="front" value="front"><label for="Front-end Projects">Front-end Projects</label>
+            <input type="checkbox" class="inline" id="back" value="back"><label for="Back-end Projects">Back-end Projects</label>
+            <input type="checkbox" class="inline" id="fm" value="fm"><label for="FM">FM</label>
+            </fieldset>
+        <textarea>
+            </textarea>
+        <input id="submit" type="submit">
+    </form>
+</body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body{
+  font-size:16px;
+}
+h1,p{
+  text-align: center;
+}
+p{
+  font-size:20px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100; 
+  font-style: italic;
+}
+form {
+  width:60vw;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+fieldset{
+  border:none;
+  border-bottom:3px solid #3b4a5c;
+  padding: 2rem 0;
+}
+input,select{
+  width:100%;
+  margin:10px 0 0 0;
+  min-height: 2em;
+}
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+** end of undefined **
+
